@@ -1,0 +1,36 @@
+/* BUENAS PRACTICAS
+1. Posicionamiento
+2. Modelo caja (Box model)
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+
+:root{
+    /* Colores! */
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black:#282623;
+    --grey:#bababa;
+    --off-white:#faf8f7;
+    --just-white:#FFFFFF;
+}
+
+*{
+    /* Para reiniciar la pagina con valores en 0 */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /* Para el eso del rem */
+    font-size: 62.5%;
+    /* Este font-family: lo vamos a usar en todo el proyecto,
+    como fuente base y cuando tengamos que usar la otra cambiamos 
+    a la otra fuente que tenemos. */
+    font-family: 'DM Sans', sans-serif;
+}
